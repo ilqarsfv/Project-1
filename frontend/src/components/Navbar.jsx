@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <Container maxW={"1440px"} px={4}>
-      <Flex minH={16} align={"center"} justify={"space-between"} flexDir={{ base: "column", sm: "row" }}>
+      <Flex minH={16} align={"center"} justify={"space-between"}>
         <Text fontSize={"2xl"} fontWeight={600}>
           <Link to={"/"}>Logo</Link>
         </Text>

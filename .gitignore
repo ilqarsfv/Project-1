@@ -1,6 +1,6 @@
 # node_modules qovluğu izlənməsin
 node_modules/
-frontend/vite-project/node_modules/
+frontend/node_modules/
 
 # build qovluğu izlənməsin (production build üçün)
 dist/

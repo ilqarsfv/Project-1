@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "mern-crud",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,8 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "framer-motion": "^12.23.7",
+    "mern-crud": "file:..",
+    "project-1": "file:..",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
