@@ -1,0 +1,25 @@
+# node_modules qovluğu izlənməsin
+node_modules/
+frontend/vite-project/node_modules/
+
+# build qovluğu izlənməsin (production build üçün)
+dist/
+build/
+
+# Ətraf mühit dəyişənləri (şəxsi məlumatlar)
+.env
+
+# log faylları
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Sistem və IDE faylları
+.DS_Store
+.vscode/
+.idea/
+
+# cache faylları
+.cache/
+.next/
+out/
