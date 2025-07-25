@@ -1,25 +1,26 @@
-# node_modules qovluğu izlənməsin
-node_modules/
-frontend/node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# build qovluğu izlənməsin (production build üçün)
-dist/
-build/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Ətraf mühit dəyişənləri (şəxsi məlumatlar)
 .env
 
-# log faylları
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Sistem və IDE faylları
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-.vscode/
-.idea/
-
-# cache faylları
-.cache/
-.next/
-out/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

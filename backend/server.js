@@ -7,7 +7,6 @@ const path = require("path");
 dotenv.config();
 const PORT = process.env.PORT || 5000;
 const _dirname = path.resolve();
-
 app.use(express.json());
 
 app.use("/api/products", productRoutes);
